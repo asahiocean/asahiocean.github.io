@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        body {
+            display: block;
+            vertical-align: middle;
+        }
+        a {
+            text-decoration: none;
+        }
+        h3 {
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 32pt;
+        }
+        .parent {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .parent.evenly-like {
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+        .parent.evenly-like:before,
+        .parent.evenly-like:after {
+            content: '';
+            display: block;
+        }
+        .custom-button {
+            border: 1px solid #9dd1ff;
+            border-radius: 10px;
+            color: #348EFE;
+            display: inline-block;
+            padding: 0px 50px;
+            text-decoration: none;
+            transition: all 50ms ease-in-out;
+        }
+        .custom-button:hover,
+        .custom-button:focus {
+            background-color: #e1f1ff;
+        }
+        .custom-button.is-featured {
+            background-color: #48aaff;
+            color: #fff;
+        }
+        .custom-button.is-featured:hover,
+        .custom-button.is-featured:active {
+            background-color: #269aff;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent evenly-like">
+    <div>
+        <a href="https://bit.ly/asahiocean-github" class="custom-button"><h3>GitHub</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-facebook" class="custom-button"><h3>Facebook</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-linkedin" class="custom-button"><h3>LinkedIn</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-instagram" class="custom-button"><h3>Instagram</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-twitter" class="custom-button"><h3>Twitter</h3></a>
+    </div>
+    </div>
+    <div class="parent evenly-like">
+    <div>
+        <a href="https://bit.ly/asahiocean-medium" class="custom-button"><h3>Medium</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-twitch" class="custom-button"><h3>TWITCH</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-steam" class="custom-button"><h3>STEAM</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-spotify" class="custom-button"><h3>SPOTIFY</h3></a>
+    </div>
+    <div>
+        <a href="https://bit.ly/asahiocean-discordserver" class="custom-button"><h3>DISCORD</h3></a>
+    </div>
+    </div>
+</body>
+</html>
